@@ -1,0 +1,89 @@
+
+ab28488@IND-5CG9381KXZ MINGW64 ~/parasoft/soavirt_workspace/AP_REGRESSION_GROOMING (master)
+$ git remote add origin https://github.com/AninditaDas154918/Scenario9-Regression.git
+git push -u origin mainfatal: remote origin already exists.
+
+ab28488@IND-5CG9381KXZ MINGW64 ~/parasoft/soavirt_workspace/AP_REGRESSION_GROOMING (master)
+$ git branch -M main
+
+ab28488@IND-5CG9381KXZ MINGW64 ~/parasoft/soavirt_workspace/AP_REGRESSION_GROOMING (main)
+$ git push -u origin main
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': AninditaDas154918
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 112.86 KiB | 7.52 MiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0)
+To https://github.com/AninditaDas154918/Scenario9-Regression.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+ab28488@IND-5CG9381KXZ MINGW64 ~/parasoft/soavirt_workspace/AP_REGRESSION_GROOMING (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+ab28488@IND-5CG9381KXZ MINGW64 ~/parasoft/soavirt_workspace/AP_REGRESSION_GROOMING (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        MyDemoDocument.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ab28488@IND-5CG9381KXZ MINGW64 ~/parasoft/soavirt_workspace/AP_REGRESSION_GROOMING (main)
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+ab28488@IND-5CG9381KXZ MINGW64 ~/parasoft/soavirt_workspace/AP_REGRESSION_GROOMING (main)
+$ git add .
+
+ab28488@IND-5CG9381KXZ MINGW64 ~/parasoft/soavirt_workspace/AP_REGRESSION_GROOMING (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   MyDemoDocument.txt
+
+
+ab28488@IND-5CG9381KXZ MINGW64 ~/parasoft/soavirt_workspace/AP_REGRESSION_GROOMING (main)
+$ git commnit -m "second commit"
+git: 'commnit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+ab28488@IND-5CG9381KXZ MINGW64 ~/parasoft/soavirt_workspace/AP_REGRESSION_GROOMING (main)
+$ git commit -m "Second commit"
+[main 0d8c34a] Second commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 MyDemoDocument.txt
+
+ab28488@IND-5CG9381KXZ MINGW64 ~/parasoft/soavirt_workspace/AP_REGRESSION_GROOMING (main)
+$ git push origin main
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': AninditaDas154918
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 291 bytes | 97.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/AninditaDas154918/Scenario9-Regression.git
+   ef68753..0d8c34a  main -> main
+
+ab28488@IND-5CG9381KXZ MINGW64 ~/parasoft/soavirt_workspace/AP_REGRESSION_GROOMING (main)
+$
